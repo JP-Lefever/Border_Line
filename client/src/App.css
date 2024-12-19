@@ -1,0 +1,31 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+}
+@font-face {
+  font-family: "alegreya";
+  src: url("./assets/fonts/Alegreya-VariableFont_wght.ttf");
+}
+
+@font-face {
+  font-family: "jejuhallasan";
+  src: url("./assets/fonts/jejuHallasan-regular.ttf");
+}
+
+@font-face {
+  font-family: "hindisiliguri";
+  src: url("./assets/fonts/hindsiliguri-regular.ttf");
+}
+
+:root {
+  --light: #f0e5b8;
+  --dark: #241715;
+  --title-font: "alegreya";
+  --main-title-font: "jejuhallasan";
+  --text-font: "hindisiliguri";
+  --title-color: yellow;
+  --cold-color: #5a7492;
+  --warm-color: #e07f61;
+}
